@@ -123,6 +123,5 @@ class MessageSender {
         System.out.println("To where do you wand to send it ?");
         to = input.nextLine();
         this.method.send(from, to, encryption.Encrypted(msg));
-
     }
 }
