@@ -76,7 +76,6 @@ class firstencryptionmethod implements Encryption {
     static final char firsChar = ' '; // this is 32
     static final char lastChar = '~'; // this is 126
     static final int alphabetLen = lastChar - firsChar + 1; // 95
-    // by default the encryption key will be 8
     @Override
     public String Encrypted(String msg) {
         Scanner input = new Scanner (System.in);
